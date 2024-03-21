@@ -1,3 +1,10 @@
+# frozen_string_literal: true
+
 lane :test do
-  jira_update_tickets
+  jira_update_tickets(
+    url: 'YOUR_URL_HERE',
+    username: 'YOUR_USERNAME_HERE',
+    password: 'YOUR_PASSWORD_HERE',
+    tickets: ['ISSUE-1']
+  )
 end

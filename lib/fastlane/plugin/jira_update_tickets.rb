@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'fastlane/plugin/jira_update_tickets/version'
 
 module Fastlane
